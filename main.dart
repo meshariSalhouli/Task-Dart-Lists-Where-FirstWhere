@@ -17,9 +17,11 @@ void main() {
   int max = numbers[0];
   numbers.forEach((num) {
     if (max < num) {
-      print(" the largest number is $num");
+      max = num;
     }
   });
+  print(" the largest number is $max");
+
 // Where task
   List<int> age = [12, 13, 16, 18, 22, 77];
   int Minimumage = 16;
